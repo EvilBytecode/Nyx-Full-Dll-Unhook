@@ -1,4 +1,4 @@
-module Nyx_Unhooker
+module github.com/EvilBytecode/Nyx-Full-Dll-Unhook/pkg/nyx
 
 go 1.22.2
 
