@@ -1,6 +1,6 @@
 # Nyx-Unhooker
 
-# Leviathan Unhooker Offers:
+# Nyx Unhooker Offers:
 - Full Dll Unhooking for:
 - kernel32.dll
 - kernelbase.dll
