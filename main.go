@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-  Nyx.AutoUnhook()
-  Nyx.Unhook64()
-  Nyx.Unhook386()
+  Nyx.AutoUnhook()   // Unhooks based on users Arch, (Automatically Gets it) and patches Dlls.
+ // Nyx.Unhook64() // Unhooks on Amd64 Archs
+ // Nyx.Unhook386() // Unhooks on I386 Archs
 }
