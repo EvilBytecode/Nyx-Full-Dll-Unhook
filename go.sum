@@ -1,0 +1,14 @@
+github.com/Binject/debug v0.0.0-20200830173345-f54480b6530f/go.mod h1:QzgxDLY/qdKlvnbnb65eqTedhvQPbaSP2NqIbcuKvsQ=
+github.com/Binject/debug v0.0.0-20211007083345-9605c99179ee h1:neBp9wDYVY4Uu1gGlrL+IL4JeZslz+hGEAjBXGAPWak=
+github.com/Binject/debug v0.0.0-20211007083345-9605c99179ee/go.mod h1:QzgxDLY/qdKlvnbnb65eqTedhvQPbaSP2NqIbcuKvsQ=
+github.com/C-Sto/BananaPhone v0.0.0-20220220002628-6585e5913761 h1:0144WWUvo86bVDEkxb3vmM92DCEsrkSYSd5gV1YlGKE=
+github.com/C-Sto/BananaPhone v0.0.0-20220220002628-6585e5913761/go.mod h1:QsEPWHZooj8uXL2YEdpQX+hDr00Plw7myenTiduBHRA=
+github.com/EvilBytecode/GolangStyle v1.0.2 h1:bDk+Wz8zerJuL62aZfDJMcsj3DKPUAjaaLbVQsFRBe4=
+github.com/EvilBytecode/GolangStyle v1.0.2/go.mod h1:imf5QQcvMxqsXCIR5VxYaq3v627o7Cg18n3HHjGJx/A=
+github.com/awgh/rawreader v0.0.0-20200626064944-56820a9c6da4 h1:cIAK2NNf2yafdgpFRNJrgZMwvy61BEVpGoHc2n4/yWs=
+github.com/awgh/rawreader v0.0.0-20200626064944-56820a9c6da4/go.mod h1:SalMPBCab3yuID8nIhLfzwoBV+lBRyaC7NhuN8qL8xE=
+github.com/timwhitez/Doge-Gabh v1.9.3 h1:l8oVG2oQVJWWJVJoRKENe5Ca7EDaCj6KsXmNfyWk2e4=
+github.com/timwhitez/Doge-Gabh v1.9.3/go.mod h1:icGQ8/P2ilVYFsiGyUBeT43Z//06qZGYwLVJbclD9pI=
+golang.org/x/sys v0.0.0-20200828194041-157a740278f4/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
+golang.org/x/sys v0.0.0-20220627191245-f75cf1eec38b h1:2n253B2r0pYSmEV+UNCQoPfU/FiaizQEK5Gu4Bq4JE8=
+golang.org/x/sys v0.0.0-20220627191245-f75cf1eec38b/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
