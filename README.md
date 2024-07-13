@@ -1,4 +1,3 @@
-# Nyx-Unhooker
 
 # Nyx Unhooker Offers:
 - Full Dll Unhooking for:
