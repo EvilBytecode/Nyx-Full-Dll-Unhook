@@ -46,3 +46,28 @@ This project is licensed under the [MIT]. See the LICENSE file for details.
 
 # credits?
 - https://github.com/timwhitez
+---
+# Examples & Info:
+### ```Nyx.AutoUnhook()```
+- Automatically unhooks DLLs based on the user's system architecture. This function detects whether the system is running on amd64 or i386 architecture and patches the DLLs accordingly.
+
+### ```Nyx.Unhook64()```
+- Unhooks DLLs specifically for systems running on the amd64 architecture. This function is commented out in the main example but can be used if you know your system architecture in advance.
+
+### ```Nyx.Unhook386()```
+- Unhooks DLLs specifically for systems running on the i386 architecture. This function is commented out in the main example but can be used if you know your system architecture in advance.
+
+### Example Snippet:
+```go
+package main
+
+import (
+	"github.com/EvilBytecode/Nyx-Full-Dll-Unhook/pkg/nyx"
+)
+
+func main() {
+	Nyx.AutoUnhook()   // Unhooks based on users Arch, (Automatically Gets it) and patches Dlls.
+	// Nyx.Unhook64() Unhooks on Amd64 Archs
+	// Nyx.Unhook386()  Unhooks on I386 Archs
+}
+```
