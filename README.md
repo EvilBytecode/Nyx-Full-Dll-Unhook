@@ -21,14 +21,6 @@ Endpoint Detection and Response (EDR) tools rely on hooking mechanisms to monito
 
 Nyx Unhooker facilitates the unhooking process by restoring the original functionality of specified DLLs. This allows software utilizing Nyx Unhooker to operate without triggering alerts from EDR tools that rely on hooking mechanisms.
 
-## Usage
-
-To use Nyx Unhooker effectively, follow these steps:
-
-1. **Compile**: Compile the Nyx Unhooker code using your preferred compiler.
-2. **Run**: Execute Nyx Unhooker with administrative privileges to perform DLL unhooking.
-3. **Monitor**: Verify the effectiveness of DLL unhooking using appropriate testing and monitoring tools.
-
 ## Example Scenario
 
 In a scenario where a software application needs to avoid detection by EDR tools, Nyx Unhooker can be used to restore the original DLL code sections, thus enabling the application to operate stealthily.
