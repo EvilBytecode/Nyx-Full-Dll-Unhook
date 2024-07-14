@@ -1,6 +1,7 @@
 # Nyx Unhooker
 
 Nyx Unhooker is a tool designed to facilitate DLL unhooking, focusing on critical system DLLs to allow evasion of Endpoint Detection and Response (EDR) mechanisms. By restoring original DLL code sections, Nyx Unhooker aims to counteract monitoring and detection by security tools, offering a method for software to operate stealthily on compromised systems.
+![image](https://github.com/user-attachments/assets/4d1731b5-501e-4c2c-93d6-44030aaafaa3)
 
 ## Features
 - Simple to use.
