@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/EvilBytecode/Nyx-Full-Dll-Unhook"
+	"github.com/EvilBytecode/Nyx-Full-Dll-Unhook/pkg/nyx"
 )
 
 func main() {
