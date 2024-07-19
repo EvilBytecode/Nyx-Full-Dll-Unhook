@@ -17,16 +17,6 @@ var (
 	syspath            string
 )
 
-func init() {
-	switch runtime.GOARCH {
-	case "amd64":
-		syspath = `C:\Windows\System32\`
-	case "386":
-		syspath = `C:\Windows\SysWOW64\`
-	default:
-		return
-	}
-}
 
 func banana() (uint16, uint16) {
 	bp, e := bananaphone.NewBananaPhone(bananaphone.AutoBananaPhoneMode)
