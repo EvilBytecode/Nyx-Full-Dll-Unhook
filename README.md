@@ -64,3 +64,38 @@ func main() {
 	// Nyx.Unhook386()  Unhooks on I386 Archs
 }
 ```
+
+### PoC:
+- (mcafee flags everything)
+![image](https://github.com/user-attachments/assets/0cd89e02-1bfc-4000-8c6f-34e769f8c302)
+
+## Info:
+gets flagged (Runtime)
+```go
+package main
+
+import (
+    "fmt"
+    //"github.com/EvilBytecode/Nyx-Full-Dll-Unhook/pkg/nyx"
+)
+
+func main() {
+    //Nyx.Unhook64()
+    fmt.Println("wowowo")
+    fmt.Scanln()
+}
+```
+```go
+package main
+
+import (
+    "fmt"
+    "github.com/EvilBytecode/Nyx-Full-Dll-Unhook/pkg/nyx"
+)
+
+func main() {
+    Nyx.Unhook64()
+    fmt.Println("wowowo")
+    fmt.Scanln()
+}
+```
