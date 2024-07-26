@@ -110,14 +110,6 @@ func writeGoodBytes(b []byte, pn string, virtualoffset uint32) error {
 	return nil
 }
 
-func Unhook386() {
-	RefreshPE(syspath + "kernel32.dll")
-	RefreshPE(syspath + "kernelbase.dll")
-	RefreshPE(syspath + "ntdll.dll")
-	RefreshPE(syspath + "user32.dll")
-	RefreshPE(syspath + "apphelp.dll")
-	RefreshPE(syspath + "msvcrt.dll")
-}
 
 func Unhook64() {
 	RefreshPE(syspath + "kernel32.dll")
@@ -126,15 +118,4 @@ func Unhook64() {
 	RefreshPE(syspath + "user32.dll")
 	RefreshPE(syspath + "apphelp.dll")
 	RefreshPE(syspath + "msvcrt.dll")
-}
-
-func AutoUnhook() {
-	switch runtime.GOARCH {
-	case "amd64":
-		Unhook64()
-	case "386":
-		Unhook386()
-	default:
-		panic("Unsupported architecture")
-	}
 }
