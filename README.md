@@ -99,3 +99,4 @@ func main() {
     fmt.Scanln()
 }
 ```
+- credits to timwhitez i forgot 
